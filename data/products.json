@@ -12,10 +12,5 @@
     "P003": {
         "name": "Mouse",
         "price": 1000
-    },
-
-    "P004":{
-        "name": "Keybord",
-        "price": 800
     }
 }

@@ -1,4 +1,4 @@
-from catalogue import get_product
+from src.catalogue import get_product
 
 
 TAX_RATE = 18
