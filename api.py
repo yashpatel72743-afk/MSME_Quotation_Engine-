@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from src.catalogue import loat_catalogue
+from src.catalogue import load_catalogue
 from src.quotation import create_quotation
 
 app = FastAPI(title="MSME Quotation Engine")
@@ -24,7 +24,7 @@ def home():
 
 @app.get("/products")
 def list_products():
-    return loat_catalogue()
+    return load_catalogue()
 
 
 @app.post("/quotation")
